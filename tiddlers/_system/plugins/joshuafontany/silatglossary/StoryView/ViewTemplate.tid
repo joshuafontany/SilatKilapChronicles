@@ -1,0 +1,15 @@
+created: 20200504002201607
+creator: Joshua Fontany
+list-after: $:/core/ui/ViewTemplate/body
+modified: 20200507011836322
+modifier: Joshua Fontany
+tags: $:/tags/ViewTemplate
+title: $:/plugins/joshuafontany/silatglossary/StoryView/ViewTemplate
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]tag[Glossary]]">
+
+<div class="glossary-definitions">
+<<glossary-item>>
+</div>
+</$list>
