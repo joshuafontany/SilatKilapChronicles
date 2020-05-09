@@ -1,7 +1,7 @@
 created: 20200506022232324
 creator: Joshua Fontany
-list-after: $:/core/ui/ViewTemplate/body
-modified: 20200506023158685
+list-before: $:/core/ui/ViewTemplate/body
+modified: 20200508011801876
 modifier: Joshua Fontany
 tags: $:/tags/ViewTemplate
 title: $:/plugins/joshuafontany/bookmarkmanager/Bookmark/ViewTemplate
