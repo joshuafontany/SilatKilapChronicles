@@ -1,7 +1,7 @@
 caption: This is a link to somewhere...
 created: 20200506021614346
 creator: Joshua Fontany
-modified: 20200506031633359
+modified: 20200510080618988
 modifier: Joshua Fontany
 tags: $:/tags/Macro
 title: $:/plugins/joshuafontany/bookmarkmanager/Bookmark/Macros
@@ -12,12 +12,12 @@ url: https://somewhere
 <$list filter="[<currentTiddler>!has[caption]]">
 
 ;URL
-:{{!!url}}
+:<a class="tc-tiddlylink-external" href={{!!url}} target=_blank><$view field="url"/></a>
 </$list>
 <$list filter="[<currentTiddler>has[caption]]">
 
 ;URL
-:{{!!url}}
+:<a class="tc-tiddlylink-external" href={{!!url}} target=_blank><$view field="url"/></a>
 
 ;Caption
 :{{!!caption}}

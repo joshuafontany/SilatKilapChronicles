@@ -4,13 +4,15 @@ _see_also: QA [[quality assurance]] [[Google]]
 aliases: 
 created: 20200504001942179
 creator: Joshua Fontany
+draft.of: $:/plugins/joshuafontany/silatglossary/Macros/StoryView
+draft.title: $:/plugins/joshuafontany/silatglossary/Macros/StoryView
 filipino: test
 indonesian: test
 malay: test
-modified: 20200510065126016
+modified: 20200510065134269
 modifier: Joshua Fontany
 tags: $:/tags/Macro
-title: $:/plugins/joshuafontany/silatglossary/Macros/StoryView
+title: Draft of '$:/plugins/joshuafontany/silatglossary/Macros/StoryView'
 type: text/vnd.tiddlywiki
 
 \define language-header(term)
