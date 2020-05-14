@@ -1,0 +1,12 @@
+created: 20200514030124339
+creator: Joshua Fontany
+modified: 20200514055419798
+modifier: Joshua Fontany
+title: Adat 2
+type: text/vnd.tiddlywiki
+
+\define adatActions()
+<$action-listops $tiddler="Adat 5" $field="tags" $subfilter="+[compare:string:eq[not]then[.txt]else[not]]"/>
+\end
+
+<$button $tiddler="Adat 5" actions=<<adatActions>> >TEST</$button>
