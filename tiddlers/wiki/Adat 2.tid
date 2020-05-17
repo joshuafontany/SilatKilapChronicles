@@ -1,12 +1,26 @@
-created: 20200514030124339
+_language_list: indonesian malay filipino javanese sundanese
+_related_terms: 
+_see_also: 
+aliases: adat
+created: 20200516232911293
 creator: Joshua Fontany
-modified: 20200514055419798
+filipino: custom
+indonesian: to show respect; to respect cutoms, traditions, rituals, rites, practices, or conventions
+javanese: custom
+list: [[Filter error: Missing [ in filter expression]]
+malay: custom; tradition
+modified: 20200516235600456
 modifier: Joshua Fontany
+sundanese: custom; tradition
+tags: 
 title: Adat 2
 type: text/vnd.tiddlywiki
 
-\define adatActions()
-<$action-listops $tiddler="Adat 5" $field="tags" $subfilter="+[compare:string:eq[not]then[.txt]else[not]]"/>
-\end
+Laws of conduct; In the village system, it is expected that people will comport themselves with regard for certain basic laws. It governs the seniority system in an art, the political hierarchy of the village and surrounding land, the respect due age and special talent, the gift of madness and power.
 
-<$button $tiddler="Adat 5" actions=<<adatActions>> >TEST</$button>
+[ext[https://en.wiktionary.org/wiki/adat]]:
+
+<<<
+!!!Etymology
+From Malay //adat//, from Arabic `عَادَة` (//ʿāda//, “habit, custom”), from the verb `عَوْدَ`‎ (//ʿawda//, “to appurtain, to be proper”).
+<<<
