@@ -1,14 +1,18 @@
 created: 20200516232930305
-modified: 20200516235603766
-tags: 
+modified: 20200518032339238
+tags: Tests
 title: Button Test
 type: text/vnd.tiddlywiki
 
 \define buttonActions1()
-<$action-listops $tiddler="Adat 2" $field="tags" $subfilter="+[match[.txt]then[]else[.txt]]"/>
+<$action-listops $tiddler="Adat 2" $field="tags" $subfilter="+[match[.txt]then[]else[.txt]] [[Tests]]"/>
 \end
 \define buttonActions2()
-<$action-listops $tiddler="Adat 2" $field="tags" $subfilter="+[match[.tid]then[]else[.tid]]"/>
+<$action-listops $tiddler="Adat 2" $field="tags" $subfilter="+[match[.tid]then[]else[.tid]] [[Tests]]"/>
+\end
+\define buttonActions3()
+<$action-listops $tiddler="Adat 2" $field="tags" $subfilter="+[match[Glossary]then[]else[Glossary]] [[Tests]]"/>
+
 \end
 
 
@@ -18,4 +22,8 @@ Test 1
 
 <$button actions=<<buttonActions2>> >
 Test 2
+</$button>
+
+<$button actions=<<buttonActions3>> >
+Glossary
 </$button>

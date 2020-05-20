@@ -1,10 +1,11 @@
-_language_list: indonesian
+_language_list: indonesian sundanese
 aliases: [[ba pak]] bapak pak
 created: 20200504040723204
 creator: Joshua Fontany
-indonesian: father, sire, founder
-modified: 20200510031931734
+indonesian: father; sire
+modified: 20200518035817351
 modifier: Joshua Fontany
+sundanese: father; sire; founder
 tags: Glossary
 title: Bapak
 type: text/vnd.tiddlywiki
