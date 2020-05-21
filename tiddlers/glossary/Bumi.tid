@@ -7,11 +7,23 @@ filipino: earth
 indonesian: earth; world; globe; soil; universe; terra; geo-
 javanese: earth
 malay: earth
-modified: 20200519014851305
+modified: 20200521065505501
 modifier: Joshua Fontany
 sundanese: earth
 tags: Glossary
 title: Bumi
 type: text/vnd.tiddlywiki
 
-"Earth."
+"Earth, soil."
+
+[ext[https://en.wiktionary.org/wiki/bumi]]:
+
+<<<
+!!!Etymology
+from Malay //bumi//, from Sanskrit `भूमि` (//bhūmi//, "earth, soil").
+
+!!!Noun
+bumi 
+
+# earth (soil)
+<<<

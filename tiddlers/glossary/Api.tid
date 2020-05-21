@@ -1,15 +1,29 @@
 _language_list: indonesian malay filipino javanese sundanese
 _related_terms: Ayer Angin Bumi Tanah
-aliases: api
+aliases: api apuy
 created: 20200504081823909
 creator: Joshua Fontany
 filipino: fire; offended; aggrieved
 indonesian: fire; flame; blaze; light; glimmer; spirit
 javanese: fire
 malay: fire
-modified: 20200519015309754
+modified: 20200521065229320
 modifier: Joshua Fontany
 sundanese: fire
 tags: Glossary
 title: Api
 type: text/vnd.tiddlywiki
+
+"Fire, light, spirit."
+
+[ext[https://en.wiktionary.org/wiki/api#Indonesian]]:
+
+<<<
+!!!Etymology
+From Malay //api//, from Proto-Malayic //*api//, from Proto-Malayo-Chamic //*apuy//, from Proto-Malayo-Sumbawan //*apuy//, from Proto-Sunda-Sulawesi //*apuy//, from Proto-Malayo-Polynesian //*hapuy//, from Proto-Austronesian //*Sapuy//.
+
+!!!Noun
+//api//, //apuy//
+
+# fire (oxidation reaction)
+<<<
