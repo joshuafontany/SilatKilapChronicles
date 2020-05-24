@@ -1,5 +1,7 @@
-created: 20200521061831995
-list: $:/AdvancedSearch Adat HelloThere Glossary $:/plugins/joshuafontany/silatglossary/StoryView/ViewTemplate $:/plugins/joshuafontany/silatglossary/Macros/StoryView $:/config/FileSystemExtensions
-modified: 20200521073507112
+created: 20200523072327862
+creator: Joshua Fontany
+list: $:/AdvancedSearch Adat Aceh $:/plugins/joshuafontany/silatglossary/Macros/StoryView $:/config/ViewTemplate/Body $:/plugins/joshuafontany/core/ui/ViewTemplate/body/macro $:/plugins/joshuafontany/silatglossary/ui/ViewTemplate/body $:/core/ui/ViewTemplate/body $:/core/ui/EditTemplate/body [[YouTube/Buitron Academy/Grandmaster Ramiro Estalilla Jr. Teaching]] $:/plugins/joshuafontany/silatglossary/Macros/YouTube Glossary Wokou $:/plugins/joshuafontany/silatglossary/ViewTemplate/Tabbed-ToC $:/status/UserName [[Button Test]] [[Wikipedia/Acehnese people]] HelloThere $:/config/FileSystemExtensions
+modified: 20200524080956572
+modifier: Joshua Fontany
 title: $:/StoryList
 type: text/vnd.tiddlywiki

@@ -1,0 +1,50 @@
+created: 20200522074208819
+creator: Joshua Fontany
+list-after: $:/core/ui/ViewTemplate/body
+modified: 20200523030619410
+modifier: Joshua Fontany
+title: $:/plugins/joshuafontany/silatglossary/ViewTemplate/Tabbed-ToC
+type: text/vnd.tiddlywiki
+
+\define inlinePeek()
+<$vars 
+  itemLength={{{ [<currentTiddler>split[]count[]subtract[50]abs[]] }}}
+  firstLanguage={{{ [all[current]list[!!_language_list]limit[1]] }}}>
+<$list variable="peek" filter="[<currentTiddler>get<firstLanguage>split[]limit<itemLength>join[]addsuffix[...]]" emtpyMessage="...">
+(//<<firstLanguage>>//) <<peek>>
+</$list>
+</$vars>
+\end
+\define navAction()
+<$action-setfield $tiddler="$:/temp/glossary-toc/selectedTiddler" $field="text" $value="$(currentTiddler)$" />
+<$action-navigate $to="Glossary" $scroll="yes"/>
+\end
+
+
+<div class="toc-tabbed-glossary">
+<$list filter="[all[current]tag[Glossary/Section]] -[[Glossary/Sources]]">
+
+! <$link $to={{!!title}}><$view field="title"/></$link>
+<$transclude field="text"/>
+
+<$list filter="[all[current]tagging[]]">
+
+<$button class="tc-btn-invisible tc-tiddlylink" actions=<<navAction>> ><$view field="title"/></$button>: <<inlinePeek>>
+</$list>
+</$list>
+<$list filter="[all[current]tag[Glossary]!tag[Glossary/Section]]">
+
+! <$link $to={{!!title}}><$view field="title"/></$link>
+;Aliases
+:<code><$view field="aliases"/></code>
+
+<$transclude field="text" mode="block"/>
+
+<<glossary-item>>
+</$list>
+<$list filter="[all[current]tag[Glossary/Section]match[Glossary/Sources]]">
+
+! <$link $to={{!!title}}><$view field="title"/></$link>
+<$transclude field="text"/>
+</$list>
+</div>

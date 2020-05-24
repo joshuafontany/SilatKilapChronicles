@@ -4,7 +4,8 @@
         "tiddlywiki/filesystem",
         "tiddlywiki/tiddlyweb",
         "wikilabs/uni-link",
-        "flibbles/relink"
+        "flibbles/relink",
+        "rvanhout/videoelement"
     ],
     "themes": [
         "tiddlywiki/vanilla",

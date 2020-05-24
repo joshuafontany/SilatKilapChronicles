@@ -1,0 +1,10 @@
+created: 20200524012803677
+creator: Joshua Fontany
+modified: 20200524080943353
+modifier: Joshua Fontany
+title: $:/plugins/joshuafontany/silatglossary/ui/ViewTemplate/body
+type: text/vnd.tiddlywiki
+
+<<tiddler-body-default>>
+
+<<glossary-item>>

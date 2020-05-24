@@ -1,6 +1,9 @@
+caption: C
 created: 20200516232930305
-modified: 20200518032339238
-tags: Tests
+creator: Joshua Fontany
+modified: 20200523010031900
+modifier: Joshua Fontany
+tiddler: Glossary/C
 title: Button Test
 type: text/vnd.tiddlywiki
 
@@ -12,9 +15,22 @@ type: text/vnd.tiddlywiki
 \end
 \define buttonActions3()
 <$action-listops $tiddler="Adat 2" $field="tags" $subfilter="+[match[Glossary]then[]else[Glossary]] [[Tests]]"/>
-
+\end
+\define addTag()
+<$action-setfield $tiddler="Glossary/$(prefix)$" $field="caption" $value="$(prefix)$"/>
+<$action-listops $tiddler="Glossary/$(prefix)$" $field="tags" $subfilter="[[Glossary/Section]]"/>
+<$list filter="[tag[Glossary]prefix{$:/temp/buttonInput}]">
+<$action-listops $tiddler=<<currentTiddler>> $field="tags" $subfilter="[[Glossary/$(prefix)$]]"/>
+</$list>
 \end
 
+<$edit-text tag="input" tiddler="$:/temp/buttonInput" default=""/>
+
+<$set name="prefix" value={{$:/temp/buttonInput}}>
+<$button actions=<<addTag>> >
+Add Tag: Glossary/<<prefix>> to {{{ [tag[Glossary]prefix{$:/temp/buttonInput}count[]] }}} tiddlers.
+</$button>
+</$set>
 
 <$button actions=<<buttonActions1>> >
 Test 1
