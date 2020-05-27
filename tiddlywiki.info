@@ -3,9 +3,9 @@
     "plugins": [
         "tiddlywiki/filesystem",
         "tiddlywiki/tiddlyweb",
+        "tiddlywiki/internals",
         "wikilabs/uni-link",
-        "flibbles/relink",
-        "rvanhout/videoelement"
+        "flibbles/relink"
     ],
     "themes": [
         "tiddlywiki/vanilla",

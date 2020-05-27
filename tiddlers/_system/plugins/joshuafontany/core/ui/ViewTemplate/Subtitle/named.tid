@@ -1,0 +1,16 @@
+created: 20200525065539171
+modified: 20200526001722731
+title: $:/plugins/joshuafontany/core/ui/ViewTemplate/subtitle/named
+type: text/vnd.tiddlywiki
+
+<div><$set name="tv-wikilinks" value={{$:/config/Tiddlers/TitleLinks}}>
+<$link class="tc-title-small">
+<$list filter="[all[current]removeprefix[$:/]]" variable="systemPath">
+<span class="tc-system-title-prefix">$:/</span><$text text=<<systemPath>>/>
+</$list>
+<$list filter="[all[current]!prefix[$:/]]">
+<$view tiddler=<<currentTiddler>> field="title"/>
+</$list>
+</$link>
+</$set></div>
+<div><<tiddler-subtitle-default>></div>

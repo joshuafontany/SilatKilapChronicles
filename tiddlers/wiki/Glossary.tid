@@ -1,7 +1,7 @@
 color: <
 created: 20200430054018938
 creator: Joshua Fontany
-modified: 20200523015250457
+modified: 20200527045852944
 modifier: Joshua Fontany
 sort: [get[sort-priority]else[0]]
 title: Glossary
@@ -14,5 +14,5 @@ type: text/vnd.tiddlywiki
 	selectedTiddler="$:/temp/glossary-toc/selectedTiddler"
 	unselectedText="<p>Select a topic in the glossary table of contents. Click an arrow to expand a topic.</p>"
 	missingText="<p>Missing glossary tiddler.</p>"
-	template="$:/plugins/joshuafontany/silatglossary/ViewTemplate/Tabbed-ToC"
+	template="$:/plugins/joshuafontany/silatglossary/ui/Glossary/Tabbed-ToC"
 />

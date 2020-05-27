@@ -1,9 +1,9 @@
 created: 20200524012209342
 creator: Joshua Fontany
-modified: 20200524075236107
+modified: 20200526001821512
 modifier: Joshua Fontany
 tags: 
-title: $:/config/ViewTemplate/Body
+title: $:/config/ui/ViewTemplate/body
 type: text/vnd.tiddlywiki
 
 [tag[$:/tags/Macro]then[$:/plugins/joshuafontany/core/ui/ViewTemplate/body/macro]]

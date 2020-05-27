@@ -1,0 +1,9 @@
+created: 20200525020244197
+creator: Joshua Fontany
+modified: 20200526001737618
+modifier: Joshua Fontany
+tags: 
+title: $:/config/ui/ViewTemplate/title
+type: text/vnd.tiddlywiki
+
+[has[name]then[$:/plugins/joshuafontany/core/ui/ViewTemplate/title/named]]
