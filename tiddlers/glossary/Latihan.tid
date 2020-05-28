@@ -1,14 +1,14 @@
 _language_list: indonesian malay filipino javanese sundanese
 _related_terms: [[Latihan Tiga]] [[Latihan Macan]]
 _see_also: 
-aliases: latihan
+aliases: latihan latih
 created: 20200511064050000
 creator: Joshua Fontany
 filipino: practice
 indonesian: practice; exercise; drill; training; workout; rehearsal
 javanese: practice; exercise; training
 malay: practice; exercise; training; rehearsal
-modified: 20200523021324715
+modified: 20200528023834786
 modifier: Joshua Fontany
 sundanese: exercise; training; rehearsal
 tags: Glossary Glossary/L
@@ -16,3 +16,16 @@ title: Latihan
 type: text/vnd.tiddlywiki
 
 "Practice exercise."
+
+[ext[https://en.wiktionary.org/wiki/latihan]]:
+
+<<<
+!!!Etymology
+From //latih// +‎ [[-an]].
+
+!!!Noun
+//latihan//
+
+# training
+# exercise
+<<<
