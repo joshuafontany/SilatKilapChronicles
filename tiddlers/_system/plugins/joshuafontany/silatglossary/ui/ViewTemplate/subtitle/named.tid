@@ -1,6 +1,6 @@
 created: 20200525065539171
-modified: 20200526001722731
-title: $:/plugins/joshuafontany/core/ui/ViewTemplate/subtitle/named
+modified: 20200530074143080
+title: $:/plugins/joshuafontany/silatglossary/ui/ViewTemplate/subtitle/named
 type: text/vnd.tiddlywiki
 
 <div><$set name="tv-wikilinks" value={{$:/config/Tiddlers/TitleLinks}}>

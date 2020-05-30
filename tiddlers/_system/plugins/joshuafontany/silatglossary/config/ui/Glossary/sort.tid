@@ -1,9 +1,9 @@
 created: 20200528021242288
 creator: Joshua Fontany
-modified: 20200528022236747
+modified: 20200530073658337
 modifier: Joshua Fontany
 tags: 
-title: $:/plugins/silatglossary/config/ui/Glossary/sort
+title: $:/plugins/joshuafontany/silatglossary/config/ui/Glossary/sort
 type: text/vnd.tiddlywiki
 
 [<currentTiddler>get[sort-priority]else{!!title}]

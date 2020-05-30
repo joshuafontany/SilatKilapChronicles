@@ -1,0 +1,9 @@
+created: 20200530032246904
+creator: Joshua Fontany
+modified: 20200530074406333
+modifier: Joshua Fontany
+tags: $:/config/ui/ViewTemplate/body
+title: $:/plugins/joshuafontany/silatglossary/config/ui/ViewTemplate/body 2
+type: text/vnd.tiddlywiki
+
+[match[Adat]then[This is ADAT Too!]]

@@ -2,10 +2,10 @@ color: #d3869b
 created: 20200525020429634
 creator: Joshua Fontany
 icon: $:/core/images/globe
-modified: 20200526001737692
+modified: 20200530074940417
 modifier: Joshua Fontany
 name: Test Name
-title: $:/plugins/joshuafontany/core/ui/ViewTemplate/title/named
+title: $:/plugins/joshuafontany/silatglossary/ui/ViewTemplate/title/named
 type: text/vnd.tiddlywiki
 
 \whitespace trim

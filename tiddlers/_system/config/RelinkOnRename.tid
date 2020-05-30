@@ -1,8 +1,8 @@
 created: 20200430081106374
 creator: Joshua Fontany
-modified: 20200528185538343
+modified: 20200530074419168
 modifier: Joshua Fontany
 title: $:/config/RelinkOnRename
 type: text/vnd.tiddlywiki
 
-yes
+no
