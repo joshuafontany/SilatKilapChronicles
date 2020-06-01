@@ -1,5 +1,5 @@
 created: 20200525065539171
-modified: 20200530074143080
+modified: 20200601011458485
 title: $:/plugins/joshuafontany/silatglossary/ui/ViewTemplate/subtitle/named
 type: text/vnd.tiddlywiki
 
@@ -13,4 +13,4 @@ type: text/vnd.tiddlywiki
 </$list>
 </$link>
 </$set></div>
-<div><<tiddler-subtitle-default>></div>
+<div><<tiddler-subtitle-view>></div>
