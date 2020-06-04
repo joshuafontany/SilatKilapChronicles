@@ -7,7 +7,7 @@ creator: Joshua Fontany
 filipino: test
 indonesian: test
 malay: test
-modified: 20200527064307575
+modified: 20200604074403235
 modifier: Joshua Fontany
 title: $:/plugins/joshuafontany/silatglossary/Macros/StoryView
 type: text/vnd.tiddlywiki
@@ -46,7 +46,7 @@ type: text/vnd.tiddlywiki
 <$set name="code" tiddler="$:/plugins/joshuafontany/silatglossary/LanguageCodes" index=<<Language>> empty="auto" >
 
 ;<$macrocall $name="language-header" term={{{ [{!!title}lowercase[]] }}} />
-:<$view field=<<lang>> />
+:<$transclude field=<<lang>> />
 </$set>
 </$list>
 </$list>
