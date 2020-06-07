@@ -1,6 +1,21 @@
 caption: Numbers
 created: 20200607035810478
-modified: 20200607040435885
-tags: Glossary/Categories
+modified: 20200607064037052
+tags: Glossary/Category
 title: Glossary/Numbers
 type: text/vnd.tiddlywiki
+
+\import [[$:/plugins/joshuafontany/silatglossary/ui/Glossary/Tabbed-ToC]]
+!! Numbers (Numerical)
+
+<$list filter="[all[tiddlers+shadows]tag[Glossary/Numbers]sortan[text]]">
+
+<$button class="tc-btn-invisible tc-tiddlylink" actions=<<navAction>> ><$view field="title"/></$button>: <<inlinePeek>>
+</$list>
+
+!! Numbers (Alphabetical)
+
+<$list filter="[all[tiddlers+shadows]tag[Glossary/Numbers]sortan[title]]">
+
+<$button class="tc-btn-invisible tc-tiddlylink" actions=<<navAction>> ><$view field="title"/></$button>: <<inlinePeek>>
+</$list>

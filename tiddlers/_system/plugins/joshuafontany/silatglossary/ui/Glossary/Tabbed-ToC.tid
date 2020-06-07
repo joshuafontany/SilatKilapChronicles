@@ -1,7 +1,7 @@
 created: 20200522074208819
 creator: Joshua Fontany
 list-after: $:/core/ui/ViewTemplate/body
-modified: 20200607032459117
+modified: 20200607071957565
 modifier: Joshua Fontany
 title: $:/plugins/joshuafontany/silatglossary/ui/Glossary/Tabbed-ToC
 type: text/vnd.tiddlywiki
@@ -22,7 +22,7 @@ type: text/vnd.tiddlywiki
 \import [[$:/plugins/joshuafontany/silatglossary/Macros/StoryView]]
 
 <div class="toc-tabbed-glossary">
-<$list filter="[all[current]tag[Glossary/Section]] [all[current]tag[Glossary/Categories]] -Glossary/Sources -Glossary/Search -Glossary/Categories">
+<$list filter="[all[current]tag[Glossary/Section]] [all[current]tag[Glossary/Category]] -Glossary/Sources -Glossary/Search -Glossary/Category">
 
 ! <$link $to={{!!title}}><$view field="title"/></$link>
 <$transclude field="text" mode="block"/>
@@ -32,7 +32,7 @@ type: text/vnd.tiddlywiki
 <$button class="tc-btn-invisible tc-tiddlylink" actions=<<navAction>> ><$view field="title"/></$button>: <<inlinePeek>>
 </$list>
 </$list>
-<$list filter="[all[current]tag[Glossary]!tag[Glossary/Section]]">
+<$list filter="[all[current]tag[Glossary]!tag[Glossary/Section]!tag[Glossary/Category]]">
 
 ! <$link $to={{!!title}}><$view field="title"/></$link>
 
@@ -40,7 +40,7 @@ type: text/vnd.tiddlywiki
 
 <<glossary-item>>
 </$list>
-<$list filter="[all[current]tag[Glossary/Section]match[Glossary/Sources]] [all[current]tag[Glossary/Section]match[Glossary/Search]] [all[current]tag[Glossary/Section]match[Glossary/Categories]]">
+<$list filter="[all[current]tag[Glossary/Section]match[Glossary/Sources]] [all[current]tag[Glossary/Section]match[Glossary/Search]] [all[current]tag[Glossary/Section]match[Glossary/Category]]">
 
 ! <$link $to={{!!title}}><$view field="title"/></$link>
 <$transclude field="text" mode="block"/>
