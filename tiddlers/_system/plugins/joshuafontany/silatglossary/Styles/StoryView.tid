@@ -1,0 +1,15 @@
+created: 20200608032954076
+creator: Joshua Fontany
+modified: 20200608033222471
+modifier: Joshua Fontany
+tags: $:/tags/Stylesheet
+title: $:/plugins/joshuafontany/silatglossary/Styles/StoryView
+type: text/vnd.tiddlywiki
+
+.tc-language-list {
+    display: flex;   flex-wrap: wrap;
+}
+
+.tc-language-control {
+    max-width: 25%; margin-right: 5%;
+}
