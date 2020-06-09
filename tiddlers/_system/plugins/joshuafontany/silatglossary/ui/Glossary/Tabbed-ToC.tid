@@ -1,7 +1,7 @@
 created: 20200522074208819
 creator: Joshua Fontany
 list-after: $:/core/ui/ViewTemplate/body
-modified: 20200607071957565
+modified: 20200608234919519
 modifier: Joshua Fontany
 title: $:/plugins/joshuafontany/silatglossary/ui/Glossary/Tabbed-ToC
 type: text/vnd.tiddlywiki
@@ -19,7 +19,7 @@ type: text/vnd.tiddlywiki
 <$action-setfield $tiddler="$:/temp/glossary-toc/selectedTiddler" $field="text" $value="$(currentTiddler)$" />
 <$action-navigate $to="Glossary" $scroll="yes"/>
 \end
-\import [[$:/plugins/joshuafontany/silatglossary/Macros/StoryView]]
+\import $:/plugins/joshuafontany/silatglossary/Macro/Story/View
 
 <div class="toc-tabbed-glossary">
 <$list filter="[all[current]tag[Glossary/Section]] [all[current]tag[Glossary/Category]] -Glossary/Sources -Glossary/Search -Glossary/Category">
