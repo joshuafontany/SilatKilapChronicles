@@ -1,8 +1,9 @@
 created: 20200522074208819
 creator: Joshua Fontany
 list-after: $:/core/ui/ViewTemplate/body
-modified: 20200608234919519
+modified: 20200610031610377
 modifier: Joshua Fontany
+tags: $:/tags/Raw
 title: $:/plugins/joshuafontany/silatglossary/ui/Glossary/Tabbed-ToC
 type: text/vnd.tiddlywiki
 
@@ -19,8 +20,7 @@ type: text/vnd.tiddlywiki
 <$action-setfield $tiddler="$:/temp/glossary-toc/selectedTiddler" $field="text" $value="$(currentTiddler)$" />
 <$action-navigate $to="Glossary" $scroll="yes"/>
 \end
-\import $:/plugins/joshuafontany/silatglossary/Macro/Story/View
-
+\import $:/plugins/joshuafontany/silatglossary/Macro/Story/View $:/plugins/joshuafontany/silatglossary/Macros/droppable/insert
 <div class="toc-tabbed-glossary">
 <$list filter="[all[current]tag[Glossary/Section]] [all[current]tag[Glossary/Category]] -Glossary/Sources -Glossary/Search -Glossary/Category">
 
@@ -34,10 +34,16 @@ type: text/vnd.tiddlywiki
 </$list>
 <$list filter="[all[current]tag[Glossary]!tag[Glossary/Section]!tag[Glossary/Category]]">
 
-! <$link $to={{!!title}}><$view field="title"/></$link>
+
+!<$link $to={{!!title}}><$view field="title"/></$link>
+
+<$vars currentField="tags" currentVar="null">
+<$macrocall $name="droppable-item" button="""<div class="tc-tags-wrapper">
+<$list filter="[all[current]tags[]sort[title]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
+</div>"""/>
+</$vars>
 
 <$transclude field="text" mode="block"/>
-
 <<glossary-item>>
 </$list>
 <$list filter="[all[current]tag[Glossary/Section]match[Glossary/Sources]] [all[current]tag[Glossary/Section]match[Glossary/Search]] [all[current]tag[Glossary/Section]match[Glossary/Category]]">
