@@ -1,7 +1,7 @@
 caption: Sources
-created: 20200522080259772
+created: 20200611025729903
 creator: Joshua Fontany
-modified: 20200607031637060
+modified: 20200611030006235
 modifier: Joshua Fontany
 sort-priority: 0
 tags: Glossary/Section
@@ -17,4 +17,4 @@ Because of the rarity of primary sources, spelling-shifts over time, and common 
 This wiki is dedicated to the future generations, who will literally embody these principles and carry them forward.
 
 !!Sources:
-<$macrocall $name="list-links" filter="[tag[Glossary/Source]sort[modified]]"/>
+<$macrocall $name="list-links" filter="[tag[Glossary/Sources]sort[modified]]"/>
