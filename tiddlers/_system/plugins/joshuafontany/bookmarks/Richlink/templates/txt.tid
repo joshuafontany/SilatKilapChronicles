@@ -1,0 +1,14 @@
+created: 20170513092301785
+creator: Mat von TWaddle
+modified: 20170513093209310
+modifier: Mat von TWaddle
+tags: 
+title: $:/richlink/txt
+
+\define rl-txt(link, height:"300px")
+<object data="$link$" type="text/plain" style="width:100%; height:$height$; " scrolling:yes>
+<a href="$link$" target="_blank">$link$</a> (missing or not supported)
+</object>
+\end
+
+<$macrocall $name=rl-txt link=<<link>> height=<<1>> />

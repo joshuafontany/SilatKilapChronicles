@@ -1,0 +1,9 @@
+tags: 
+title: $:/plugins/joshuafontany/bookmarks/Richlink/templates/iframe
+
+\define rich-iframe(link, height:"250px")
+<iframe class=rich-iframe src="$link$" frameborder="0" width=100% allowfullscreen/>
+<style>.rich-iframe {height:$height$; }</style>
+\end
+
+<$macrocall $name=rich-iframe link=<<link>> height=<<1>> />

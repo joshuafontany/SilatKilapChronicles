@@ -1,0 +1,27 @@
+{ 
+    "www.youtube.com": "youtube",
+    "m.youtube.com": "youtube",
+    "youtube.com": "youtube",
+    "www.vimeo.com": "vimeo",
+    "m.vimeo.com": "vimeo",
+    "vimeo.com": "vimeo",
+    "www.facebook.com": "facebook",
+    "m.facebook.com": "facebook",
+    "facebook.com": "facebook",
+    "www.instagram.com": "instagram",
+    "m.instagram.com": "instagram",
+    "instagram.com": "instagram",
+
+    "pdf": "iframe",
+    "txt": "txt",
+    "jpg": "img",
+    "JPG": "img",
+    "png": "img",
+    "mp3": "audio",
+    "ogg": "audio",
+    "wav": "audio",
+    "flac": "audio",
+    "mp4": "video",
+    "ogv": "video",
+    "webm": "video"
+}

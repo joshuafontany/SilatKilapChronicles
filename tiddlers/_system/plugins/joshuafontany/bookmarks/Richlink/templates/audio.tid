@@ -1,0 +1,8 @@
+tags: 
+title: $:/plugins/joshuafontany/bookmarks/Richlink/templates/audio
+
+<audio src=<<link>> controls preload="auto" class="richlink-audio"/>
+
+<style>
+.richlink-audio {width:100%;}
+</style>

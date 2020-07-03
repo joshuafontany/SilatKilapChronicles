@@ -1,9 +1,10 @@
 {
-    "description": "Empty edition",
+    "description": "SilatKilap edition",
     "plugins": [
-        "tiddlywiki/filesystem",
-        "tiddlywiki/tiddlyweb",
+        "OokTech/Bob",
         "tiddlywiki/internals",
+        "tiddlywiki/consent-banner",
+        "joshuafontany/oembed",
         "wikilabs/uni-link",
         "flibbles/relink"
     ],
@@ -16,16 +17,6 @@
             "--rendertiddler",
             "$:/core/save/all",
             "index.html",
-            "text/plain"
-        ],
-        "empty": [
-            "--rendertiddler",
-            "$:/core/save/all",
-            "empty.html",
-            "text/plain",
-            "--rendertiddler",
-            "$:/core/save/all",
-            "empty.hta",
             "text/plain"
         ],
         "externalimages": [
