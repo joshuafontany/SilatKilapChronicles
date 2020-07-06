@@ -7,7 +7,3 @@ tags: Bookmark
 title: Facebook/Tiga Tactics/Videos/Silat Serak Symposium in Colorado
 type: text/vnd.tiddlywiki
 url: https://www.facebook.com/TigaTactics/videos/2480134615552740/
-
-<$macrocall $name="richlink" link={{!!url}} />
-
-[embed[!!url}]
