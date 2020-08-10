@@ -1,9 +1,9 @@
 caption: {{$:/language/SideBar/More/Caption}}
 created: 20200810005225024
 creator: Joshua Fontany
-modified: 20200810013153774
+modified: 20200810020451481
 modifier: Joshua Fontany
-tags: 
+tags: $:/tags/SideBar
 title: $:/core/ui/SideBar/More
 
 <div class="tc-more-sidebar">
