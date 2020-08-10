@@ -6,7 +6,8 @@
         "tiddlywiki/consent-banner",
         "joshuafontany/oembed",
         "wikilabs/uni-link",
-        "flibbles/relink"
+        "flibbles/relink",
+        "joshuafontany/pagetools"
     ],
     "themes": [
         "tiddlywiki/vanilla",

@@ -1,7 +1,10 @@
 created: 20200626075633883
-modified: 20200703224022182
+modified: 20200720223443553
 tags: 
 title: New Tiddler
 type: text/vnd.tiddlywiki
 
-[embed[https://www.youtube.com/watch?v=IelDdM7iXrA]]
+<$button setTitle=<<currentTiddler>> setField="new-field" >Click Me</$button>
+
+
+[embed[https://www.facebook.com/TigaTactics/videos/2480134615552740/]]
