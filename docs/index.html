@@ -2065,14 +2065,14 @@ Suffix
 <div created="20200609064723205" creator="Joshua Fontany" list="Tests" modified="20200609064725117" modifier="Joshua Fontany" title="$:/config/Manager/RecentTags" type="text/vnd.tiddlywiki">
 <pre></pre>
 </div>
-<div created="20200810005225025" creator="Joshua Fontany" modified="20200811003406377" modifier="Joshua Fontany" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
-<pre>hide</pre>
+<div created="20200810005225025" creator="Joshua Fontany" modified="20200811010625114" modifier="Joshua Fontany" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<pre>show</pre>
 </div>
-<div created="20200810005225025" creator="Joshua Fontany" modified="20200811003406377" modifier="Joshua Fontany" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
-<pre>hide</pre>
+<div created="20200810005225025" creator="Joshua Fontany" modified="20200811010625115" modifier="Joshua Fontany" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
+<pre>show</pre>
 </div>
-<div created="20200810005225025" creator="Joshua Fontany" modified="20200811003406377" modifier="Joshua Fontany" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
-<pre>hide</pre>
+<div created="20200810005225025" creator="Joshua Fontany" modified="20200811010625115" modifier="Joshua Fontany" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
+<pre>show</pre>
 </div>
 <div created="20200810005242626" creator="Joshua Fontany" modified="20200810005242626" modifier="Joshua Fontany" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki">
 <pre>hide</pre>
@@ -11827,12 +11827,12 @@ We’d like to set non-essential cookies, such as Google Analytics, to help us t
     }
 }</pre>
 </div>
-<div caption="{{$:/language/SideBar/More/Caption}}" created="20200810005225024" creator="Joshua Fontany" modified="20200811003406376" modifier="Joshua Fontany" tags="" title="$:/core/ui/SideBar/More">
+<div caption="{{$:/language/SideBar/More/Caption}}" created="20200810005225024" creator="Joshua Fontany" modified="20200811010625112" modifier="Joshua Fontany" tags="$:/tags/SideBar" title="$:/core/ui/SideBar/More">
 <pre>&lt;div class=&quot;tc-more-sidebar&quot;&gt;
 &lt;$macrocall $name=&quot;tabs&quot; tabsList=&quot;[all[shadows+tiddlers]tag[$:/tags/MoreSideBar]!has[draft.of]]&quot; default={{$:/config/DefaultMoreSidebarTab}} state=&quot;$:/state/tab/moresidebar&quot; class=&quot;tc-vertical tc-sidebar-tabs-more&quot; /&gt;
 &lt;/div&gt;</pre>
 </div>
-<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20200810005225024" creator="Joshua Fontany" modified="20200811003406376" modifier="Joshua Fontany" tags="" title="$:/core/ui/SideBar/Tools">
+<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20200810005225024" creator="Joshua Fontany" modified="20200811010625112" modifier="Joshua Fontany" tags="$:/tags/SideBar" title="$:/core/ui/SideBar/Tools">
 <pre>\define lingo-base() $:/language/ControlPanel/
 \define config-title()
 $:/config/PageControlButtons/Visibility/$(listItem)$
@@ -11863,7 +11863,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 &lt;/$set&gt;
 </pre>
 </div>
-<div created="20200810005225023" creator="Joshua Fontany" modified="20200811003406376" modifier="Joshua Fontany" tags="" title="$:/core/ui/SideBarSegments/search">
+<div created="20200810005225023" creator="Joshua Fontany" modified="20200811010625111" modifier="Joshua Fontany" tags="$:/tags/SideBarSegment" title="$:/core/ui/SideBarSegments/search">
 <pre>\whitespace trim
 
 \define count-popup-button()
@@ -11942,10 +11942,9 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 &lt;/div&gt;
 </pre>
 </div>
-<div created="20171108214559509" modified="20200430053625349" title="$:/DefaultTiddlers">
+<div created="20171108214559509" creator="Joshua Fontany" modified="20200811010621419" modifier="Joshua Fontany" title="$:/DefaultTiddlers">
 <pre>[[HelloThere]]
-[[Glossary]]
-[list[$:/StoryList]]</pre>
+[[Glossary]]</pre>
 </div>
 <div created="20200811003314736" creator="Joshua Fontany" modified="20200811003314736" modifier="Joshua Fontany" title="$:/GoogleAnalyticsAccount">
 <pre>UA-175172481-2</pre>
@@ -13224,10 +13223,10 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 
 &lt;$action-setfield $tiddler=&quot;$:/plugins/joshuafontany/pagetools/ReaderMode&quot; $field=&quot;text&quot; $value=&quot;yes&quot;/&gt;</pre>
 </div>
-<div created="20200810005225025" creator="Joshua Fontany" modified="20200811003406377" modifier="Joshua Fontany" title="$:/plugins/joshuafontany/pagetools/ReaderMode">
-<pre>yes</pre>
+<div created="20200810005225025" creator="Joshua Fontany" modified="20200811010625115" modifier="Joshua Fontany" title="$:/plugins/joshuafontany/pagetools/ReaderMode">
+<pre>no</pre>
 </div>
-<div caption="Search" created="20200729064237237" creator="Joshua Fontany" list-after="$:/core/ui/SideBarSegments/page-controls" modified="20200811003406376" modifier="Joshua Fontany" tags="$:/tags/SideBarSegment" title="$:/plugins/joshuafontany/pagetools/ui/SilatGlossary/GlosarySearch">
+<div caption="Search" created="20200729064237237" creator="Joshua Fontany" list-after="$:/core/ui/SideBarSegments/page-controls" modified="20200811010625112" modifier="Joshua Fontany" tags="" title="$:/plugins/joshuafontany/pagetools/ui/SilatGlossary/GlosarySearch">
 <pre>\define .simple-search()
 &lt;div class=&quot;tc-simplesearch&quot;&gt;
 &lt;$edit-text tiddler=&quot;$:/temp/search&quot; type=&quot;search&quot; tag=&quot;input&quot; focus={{$:/config/Search/AutoFocus}} focusPopup=&lt;&lt;qualify &quot;$:/state/popup/simplesearch-dropdown&quot;&gt;&gt; class=&quot;tc-popup-handle&quot;/&gt;
@@ -14210,7 +14209,7 @@ $button$
 <pre></pre>
 </div>
 <div title="$:/state/consent-banner/accepted">
-<pre>yes</pre>
+<pre></pre>
 </div>
 <div created="20200811003312924" creator="Joshua Fontany" modified="20200811003312924" modifier="Joshua Fontany" title="$:/state/plugin-info--1529721954-$:/plugins/tiddlywiki/googleanalytics---1403365463">
 <pre>settings</pre>
@@ -14218,7 +14217,7 @@ $button$
 <div created="20200811003329970" creator="Joshua Fontany" modified="20200811003329970" modifier="Joshua Fontany" title="$:/state/plugin-info-986122084-$:/plugins/tiddlywiki/consent-banner--1250884861">
 <pre>config</pre>
 </div>
-<div created="20200811003410889" creator="Joshua Fontany" modified="20200811003410889" modifier="Joshua Fontany" title="$:/state/tab-1749438307">
+<div created="20200811003410889" creator="Joshua Fontany" modified="20200811010623456" modifier="Joshua Fontany" title="$:/state/tab-1749438307">
 <pre>$:/plugins/OokTech/Bob/ControlPanelTab</pre>
 </div>
 <div created="20200811003301236" creator="Joshua Fontany" modified="20200811003301236" modifier="Joshua Fontany" title="$:/state/tab/moresidebar-1850697562">
@@ -14236,7 +14235,7 @@ $button$
 <div title="$:/status/UserName">
 <pre>Joshua Fontany</pre>
 </div>
-<div created="20200811003308777" creator="Joshua Fontany" list="$:/ControlPanel [[New Tiddler]] $:/AdvancedSearch [[Facebook/Tiga Tactics/Videos/Silat Serak Symposium in Colorado]] MalayFightingArts.com/Terms Glossary Glossary/Search [[VDTSerak.com/Indo Terminology]] Angkat Glossary/Numbers $:/plugins/joshuafontany/silatglossary/ui/Glossary/Tabbed-ToC $:/plugins/joshuafontany/silatglossary/Macros/droppable/insert $:/plugins/joshuafontany/silatglossary/Macro/Story/Edit $:/plugins/joshuafontany/silatglossary/Macro/Story/View $:/plugins/joshuafontany/silatglossary/Styles/Story/Edit HelloThere $:/plugins/joshuafontany/silatglossary/Macros/YouTube $:/plugins/joshuafontany/silatglossary/ui/ViewTemplate/body $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/body/tab/text $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/type/hiddenfields $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/fields/hiddenfields $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/body/tab/languages $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/body/tab/related $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/body/glossary $:/plugins/joshuafontany/silatglossary/config/ui/ViewTemplate/body/macro" modified="20200811003403030" modifier="Joshua Fontany" title="$:/StoryList">
+<div created="20200811003308777" creator="Joshua Fontany" list="$:/plugins/tiddlywiki/consent-banner $:/ControlPanel [[New Tiddler]] $:/AdvancedSearch [[Facebook/Tiga Tactics/Videos/Silat Serak Symposium in Colorado]] MalayFightingArts.com/Terms Glossary Glossary/Search [[VDTSerak.com/Indo Terminology]] Angkat Glossary/Numbers $:/plugins/joshuafontany/silatglossary/ui/Glossary/Tabbed-ToC $:/plugins/joshuafontany/silatglossary/Macros/droppable/insert $:/plugins/joshuafontany/silatglossary/Macro/Story/Edit $:/plugins/joshuafontany/silatglossary/Macro/Story/View $:/plugins/joshuafontany/silatglossary/Styles/Story/Edit HelloThere $:/plugins/joshuafontany/silatglossary/Macros/YouTube $:/plugins/joshuafontany/silatglossary/ui/ViewTemplate/body $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/body/tab/text $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/type/hiddenfields $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/fields/hiddenfields $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/body/tab/languages $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/body/tab/related $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/body/glossary $:/plugins/joshuafontany/silatglossary/config/ui/ViewTemplate/body/macro" modified="20200811010636082" modifier="Joshua Fontany" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200526062334904" list="$:/plugins/joshuafontany/silatglossary/ui/EditTemplate/body/tab/text $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/body/tab/languages" modified="20200526062334954" title="$:/tags/Glossary/EditTab" type="text/vnd.tiddlywiki">
