@@ -4,6 +4,7 @@
         "OokTech/Bob",
         "tiddlywiki/internals",
         "tiddlywiki/consent-banner",
+        "tiddlywiki/googleanalytics",
         "joshuafontany/oembed",
         "wikilabs/uni-link",
         "flibbles/relink",
