@@ -1,10 +1,11 @@
 caption: {{$:/language/SideBar/Tools/Caption}}
 created: 20200810005225024
 creator: Joshua Fontany
-modified: 20200811033441268
+modified: 20201216044050509
 modifier: Joshua Fontany
-tags: 
+tags: $:/tags/SideBar
 title: $:/core/ui/SideBar/Tools
+type: text/vnd.tiddlywiki
 
 \define lingo-base() $:/language/ControlPanel/
 \define config-title()

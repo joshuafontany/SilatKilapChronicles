@@ -1,13 +1,14 @@
 {
     "description": "SilatKilap edition",
     "plugins": [
-        "OokTech/Bob",
         "tiddlywiki/internals",
         "tiddlywiki/consent-banner",
         "tiddlywiki/googleanalytics",
-        "joshuafontany/oembed",
         "wikilabs/uni-link",
         "flibbles/relink",
+        "flibbles/relink-titles",
+        "sq/streams",
+        "joshuafontany/oembed",
         "joshuafontany/pagetools"
     ],
     "themes": [

@@ -2,10 +2,11 @@ caption: Search
 created: 20200729064237237
 creator: Joshua Fontany
 list-after: $:/core/ui/SideBarSegments/page-controls
-modified: 20200811033441267
+modified: 20201216044050685
 modifier: Joshua Fontany
-tags: $:/tags/SideBarSegment
+tags: 
 title: $:/plugins/joshuafontany/pagetools/ui/SilatGlossary/GlosarySearch
+type: text/vnd.tiddlywiki
 
 \define .simple-search()
 <div class="tc-simplesearch">
